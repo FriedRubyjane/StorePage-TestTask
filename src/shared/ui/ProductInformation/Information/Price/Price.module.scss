@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 372px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.itemsPrice {
+  display: flex;
+  height: 22px;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: $divider;
+}
+
+.priceWithoutDiscount {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: $discount;
+}
+
+.price {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  color: $text;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.amountBG {
+  display: flex;
+  width: 111px;
+  height: 26px;
+  border-radius: 8px;
+  background-color: $bgGray;
+  align-items: center;
+  justify-content: center;
+}
+
+.amountInPackage {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $grayText;
+}
+
+.itemsDiscount {
+  display: flex;
+  width: 53px;
+  height: 22px;
+  padding: 2px 8px 2px 8px;
+  background-color: $discount;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+}

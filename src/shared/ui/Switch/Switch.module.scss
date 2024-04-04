@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  width: 40px;
+  height: 24px;
+  padding: 2px;
+  border-radius: 32px;
+  background-color: $grayText;
+  transition: 0.3s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: $text;
+}
+
+.active {
+  background-color: $primaryBlue-900;
+}
+
+.toggle {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.right {
+  transform: translateX(16px);
+}
+
+.left {
+  transform: translateX(0px);
+}

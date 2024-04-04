@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  //width: 38px;
+  //height: 64px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px 8px 0px;
+  border-radius: 8px;
+  background-color: $primaryBlue-100;
+  cursor: pointer;
+}
+
+.arrowRight {
+  transform: rotate(180deg);
+}

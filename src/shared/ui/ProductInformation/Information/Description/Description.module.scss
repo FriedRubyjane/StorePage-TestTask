@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  height: 17px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: $text;
+}
+
+.description {
+  height: 168px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: $text;
+}

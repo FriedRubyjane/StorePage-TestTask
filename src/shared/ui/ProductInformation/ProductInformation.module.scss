@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}

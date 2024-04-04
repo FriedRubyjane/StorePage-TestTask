@@ -1,0 +1,33 @@
+.wrapper,
+.onlyText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  width: 128px;
+  height: 48px;
+  background-color: $primaryBlue-900;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $primaryBlue-800;
+  }
+}
+
+.wrapper {
+  flex-direction: row;
+  gap: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph {
+  color: $white;
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 14px;
+}

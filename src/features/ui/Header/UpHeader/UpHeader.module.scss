@@ -1,0 +1,23 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 80px;
+  justify-content: space-between;
+  padding: 16px 24px 16px 24px;
+  border-bottom: $border;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.logo {
+  width: 144px;
+  height: 28px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 205px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  gap: 56px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  gap: 32px;
+}
+
+.paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text;
+  cursor: pointer;
+}
+
+.contactsSupport {
+  width: 135px;
+  height: 43px;
+}

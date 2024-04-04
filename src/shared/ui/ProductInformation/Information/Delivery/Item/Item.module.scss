@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  width: 113px;
+  height: 40px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: $text;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $grayText;
+}

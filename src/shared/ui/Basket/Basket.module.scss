@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  width: 148px;
+  height: 48px;
+  background-color: $primaryBlue-100;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.paragraph {
+  color: $primaryBlue-900;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}

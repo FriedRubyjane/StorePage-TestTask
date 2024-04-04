@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  row-gap: 16px;
+}
+
+.purchase {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.buttonPurchase {
+  width: 284px;
+  height: 56px;
+}
+
+.heart {
+  width: 72px;
+  height: 56px;
+}

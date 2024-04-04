@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  height: 56px;
+  padding: 12px 24px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: $border;
+}
+
+.items {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemRight,
+.itemLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.itemLeft {
+  gap: 24px;
+  color: $primaryBlue-900;
+}
+
+.cardManager {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+  background-color: $primaryBlue-100;
+  cursor: pointer;
+}
+
+.cardPercent {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.cardBlog {
+  cursor: pointer;
+}
+
+.paragraph {
+  color: $text;
+  cursor: pointer;
+}
